@@ -8,5 +8,4 @@ const IconCard = ({ Icon, text, desc }) => {
     </div>
   );
 };
-
 export default IconCard;
