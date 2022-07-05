@@ -1,5 +1,6 @@
-import Link from "next/link";
+// import Link from "next/link";
 import { useEffect } from "react";
+import { Link } from "react-scroll";
 
 const Nav_Links = [
   {
@@ -33,7 +34,7 @@ const NavBox = () => {
             key={nav_link.key}
             className="hover:text-rose-500 cursor-pointer transition duration-150 ease-linear"
           >
-            <Link href={nav_link.path}>{nav_link.text}</Link>
+            <a href={nav_link.path}>{nav_link.text}</a>
           </li>
         );
       })}

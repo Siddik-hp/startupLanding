@@ -3,7 +3,7 @@ import Muckup from "../../assets/image/muckup.jpg";
 const Hero = () => {
   return (
     <>
-      <div className="text-center max-w-md mx-auto space-y-4 my-20">
+      <div className="text-center max-w-md mx-auto space-y-4 my-20" id="home">
         <h1 className="text-4xl capitalize font-semibold">
           Top Quality digital products to explore
         </h1>

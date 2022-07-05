@@ -5,7 +5,7 @@ import SmallTitle from "./../../components/SmallTitle";
 
 const Quality = () => {
   return (
-    <section className="my-10">
+    <section className="my-10" id="features">
       <div>
         <SmallTitle text="CUALITY FEATURES" />
         <LongTitle text={"Amazing useful features"} />
