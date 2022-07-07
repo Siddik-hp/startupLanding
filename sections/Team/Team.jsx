@@ -44,12 +44,12 @@ const TeamMember = [
 const Team = () => {
   return (
     <>
-      <section id="pricing">
+      <section id="pricing" className="">
         <div>
           <SmallTitle text="Our Team" />
           <LongTitle text="Meet our teem members" />
         </div>
-        <div className="my-4 grid grid-cols-2 lg:grid-cols-3 mx-auto container gap-5 p-4 lg:p-0 mt-10">
+        <div className="my-4 grid grid-cols-2 lg:grid-cols-3 mx-auto container gap-5 p-4 lg:p-0 mt-10 ">
           {TeamMember.map((member) => {
             return <TeamCard key={uuidv4()} data={member} />;
           })}

@@ -10,7 +10,7 @@ const Quality = () => {
         <SmallTitle text="CUALITY FEATURES" />
         <LongTitle text={"Amazing useful features"} />
       </div>
-      <div className="grid grid-cols-2 container mx-auto mt-4">
+      <div className="grid grid-cols-1 lg:grid-cols-2 container mx-auto mt-4 gap-y-4 gap-x-2 lg:gap-x-4">
         <Card />
         <Card />
         <Card />
